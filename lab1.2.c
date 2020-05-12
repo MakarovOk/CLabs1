@@ -10,7 +10,7 @@ int main(void)
 	if (a <= -1) {
 		y = -1/pow(a,2);
 	}
-	if (2 >= a >= -1) {
+	else if (2 >= a >= -1) {
 		y = pow(a,2);
 	}
 	if (a >= 2) {
